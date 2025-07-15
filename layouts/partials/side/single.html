@@ -1,4 +1,5 @@
 {{- $baseURL := .Site.BaseURL -}}
+{{ partial "components/content.html" (dict "section" "single") }}
 {{- if site.Params.rtwt.side.single.showDetails -}}
   <div class="side-details">
     <span>{{- .WordCount }} {{ i18n "details_words" -}}</span>
