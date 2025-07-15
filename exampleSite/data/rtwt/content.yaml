@@ -10,4 +10,6 @@ side:
     imageWidth: '100%'
   - title: 'Side Pane Features'
     content: 'There are lots of features regarding the side pane, check [the docs]({{< ref "features/static-content" >}}) for info.'
-
+  single:
+  - title: 'Static Content'
+    content: 'Single pages (a.k.a. blog posts) can also have static content like so!'
